@@ -2,7 +2,7 @@
   <artifact type="jar" name="server:jar">
     <output-path>$PROJECT_DIR$/bin/artifacts/server_jar</output-path>
     <root id="archive" name="server.jar">
-      <element id="module-output" name="NecroticSource" />
+      <element id="module-output" name="Server" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar" path-in-jar="/" />
       <element id="library" level="module" name="commons-cli-1.2.jar" module-name="NecroticSource" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar" path-in-jar="/" />
