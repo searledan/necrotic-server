@@ -440,7 +440,7 @@ public class CommandPacketListener implements PacketListener {
             } catch (Exception e) {
                 player.getPacketSender()
                         .sendMessage("Make sure you include the thread's ID. This is the TID in the web url.")
-                        .sendMessage("For example, ::rules brings up a thread with TID 17.");
+                        .sendMessage("For example, F::rules brings up a thread with TID 17.");
             }
         }
         if (command[0].equalsIgnoreCase("claim")) {
