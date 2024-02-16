@@ -17,7 +17,7 @@ public class DiscordMessager extends JSONObject {
 	
 	public static boolean active = false;
 	
-	private static String testhook = "https://discordapp.com/api/webhooks/264884075129470976/NvJNe980SYO3DKjOPxoJRx9ew6Y9T6jYxteG_HOZ9zPNewCUj2vskZZMsjtzBiiOn75J";
+	private static String testhook = "https://discord.com/api/webhooks/1207979596084154378/a__eq7JvKwUNcP0ec05TbyABcv_bi7xi50WrV5RqijlgBOcT5aJ9AiDOxAh-73mFpdkY";
 	private static String announcementhook = "https://discordapp.com/api/webhooks/264978407408795648/xEBWbkd51PIrM_Bv8xuYCWnTWonLAbVGcz_mNH62m0xfwSFnc62To2u_Q82vcp2G_oEo";
 	private static String staffhook = "https://discordapp.com/api/webhooks/264978499528294420/XXkZF8s6k3f5MTgvJ8mAiok3W_ushBbSVaFfbo1UULqvmFtYfw0KNJFSpA85gh3Y7gws";
 	private static String ingamehook = "https://discordapp.com/api/webhooks/264978586488930304/09Ondbuw6zvWtH9dltOZq30nLnRYp-y9xMPkPDa1xs4MyELl3kmftdiUFnyHzsx-ciGt";
@@ -30,9 +30,9 @@ public class DiscordMessager extends JSONObject {
 	public static void test(String msg) {
 		try {
 			
-			if (Misc.checkForOwner() || !active) {
-				return;
-			}
+//			if (Misc.checkForOwner() || !active) {
+//				return;
+//			}
 			
 			String webhook = testhook;
 			
